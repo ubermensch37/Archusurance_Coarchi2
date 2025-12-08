@@ -79,6 +79,7 @@
       <element xsi:type="archimate:BusinessProcess" name="Pay" id="588"/>
       <element xsi:type="archimate:BusinessInteraction" name="Check and  Sign Contract" id="722"/>
     </folder>
+    <element xsi:type="archimate:BusinessActor" name="Ejemplo de Actor DEFS" id="id-8a65e892cd594cb99efc1efb928ac90f"/>
   </folder>
   <folder name="Application" id="4a8e833a" type="application">
     <folder name="Data" id="ecb5797e">
@@ -1396,6 +1397,9 @@
       <child xsi:type="archimate:DiagramObject" id="4189" targetConnections="aee60845" archimateElement="1536">
         <bounds x="210" y="74" width="20" height="27"/>
         <sourceConnection xsi:type="archimate:Connection" id="d9ceaa2d" source="4189" target="4197" archimateRelationship="f19393d1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-6a0523a3de394bdd80cbfbd1ee750fb3" archimateElement="id-8a65e892cd594cb99efc1efb928ac90f">
+        <bounds x="60" y="190" width="120" height="55"/>
       </child>
     </element>
   </folder>
