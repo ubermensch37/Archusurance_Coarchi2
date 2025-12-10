@@ -55,6 +55,8 @@
       <element xsi:type="archimate:BusinessActor" name="Client" id="1337"/>
       <element xsi:type="archimate:BusinessActor" name="Finance" id="331"/>
       <element xsi:type="archimate:BusinessActor" name="Back Office" id="324"/>
+      <element xsi:type="archimate:BusinessActor" name="Ejemplo de Actor DEFS" id="id-8a65e892cd594cb99efc1efb928ac90f"/>
+      <element xsi:type="archimate:BusinessActor" name="Ejemplo de Actor DEFS 2" id="id-14e002b3b542423eadadfc7ae8206551"/>
     </folder>
     <folder name="Functions" id="403e5717">
       <element xsi:type="archimate:BusinessFunction" name="Contracting" id="483"/>
@@ -79,8 +81,7 @@
       <element xsi:type="archimate:BusinessProcess" name="Pay" id="588"/>
       <element xsi:type="archimate:BusinessInteraction" name="Check and  Sign Contract" id="722"/>
     </folder>
-    <element xsi:type="archimate:BusinessActor" name="Ejemplo de Actor DEFS" id="id-8a65e892cd594cb99efc1efb928ac90f"/>
-    <element xsi:type="archimate:BusinessActor" name="Ejemplo de Actor DEFS 2" id="id-14e002b3b542423eadadfc7ae8206551"/>
+    <element xsi:type="archimate:BusinessActor" name="Ejemplo de Actor DEFS 3" id="id-3648fa01f76b4af38ce23058818b50dc"/>
   </folder>
   <folder name="Application" id="4a8e833a" type="application">
     <folder name="Data" id="ecb5797e">
@@ -347,6 +348,7 @@
       <element xsi:type="archimate:ServingRelationship" id="bc36ad29" source="1462" target="861"/>
     </folder>
     <element xsi:type="archimate:CompositionRelationship" id="id-c1584bd242db4aebb6c8a8a0d49d60a5" source="id-14e002b3b542423eadadfc7ae8206551" target="275"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-82a1a47a42604ecc9647bbc23461555c" source="id-3648fa01f76b4af38ce23058818b50dc" target="275"/>
   </folder>
   <folder name="Views" id="e64e9b49" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Business Cooperation View" id="4224" viewpoint="7">
@@ -1317,7 +1319,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="001e8776" source="4192" target="4196" archimateRelationship="8d85d21d"/>
         <sourceConnection xsi:type="archimate:Connection" id="e0c99f40" source="4192" target="4179" archimateRelationship="4a4cdf33"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="4174" targetConnections="id-db0d1a5272b64fed8e658b8af4a0bffe" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fillColor="#ffff80" archimateElement="275">
+      <child xsi:type="archimate:DiagramObject" id="4174" targetConnections="id-db0d1a5272b64fed8e658b8af4a0bffe id-0b8e712fc2d840779a7da4dc1923c445" font="1|Arial|14.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Arial" fillColor="#ffff80" archimateElement="275">
         <bounds x="240" y="24" width="440" height="490"/>
         <child xsi:type="archimate:DiagramObject" id="4188" targetConnections="4205" fillColor="#ffff00" archimateElement="345">
           <bounds x="20" y="420" width="80" height="50"/>
@@ -1406,6 +1408,10 @@
       <child xsi:type="archimate:DiagramObject" id="id-46fcb0dfde624226a339fffef61c2d8d" archimateElement="id-14e002b3b542423eadadfc7ae8206551">
         <bounds x="60" y="300" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-db0d1a5272b64fed8e658b8af4a0bffe" source="id-46fcb0dfde624226a339fffef61c2d8d" target="4174" archimateRelationship="id-c1584bd242db4aebb6c8a8a0d49d60a5"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-41be7a0559b44769939689d4f25bb446" archimateElement="id-3648fa01f76b4af38ce23058818b50dc">
+        <bounds x="48" y="408" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-0b8e712fc2d840779a7da4dc1923c445" source="id-41be7a0559b44769939689d4f25bb446" target="4174" archimateRelationship="id-82a1a47a42604ecc9647bbc23461555c"/>
       </child>
     </element>
   </folder>
